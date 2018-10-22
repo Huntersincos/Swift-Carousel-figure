@@ -7,7 +7,25 @@
 		<key>CarousefigureSwift.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>6E4C6D532178980200BB7D97</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6E4C6D672178980300BB7D97</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6E4C6D722178980300BB7D97</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

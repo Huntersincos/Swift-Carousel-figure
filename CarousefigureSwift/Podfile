@@ -1,0 +1,6 @@
+platform :ios, ‘8.0’
+target ‘CarousefigureSwift’do
+xcodeproj ‘CarousefigureSwift.xcodeproj’
+pod ‘SDWebImage’,’~> 4.4.2’
+use_frameworks!
+end

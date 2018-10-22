@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B2B3487DD6A43569E937D71 /* Pods_CarousefigureSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3B581BBBCB0D4983A2C897 /* Pods_CarousefigureSwift.framework */; };
 		6E4C6D582178980200BB7D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C6D572178980200BB7D97 /* AppDelegate.swift */; };
 		6E4C6D5A2178980200BB7D97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C6D592178980200BB7D97 /* ViewController.swift */; };
 		6E4C6D5D2178980200BB7D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4C6D5B2178980200BB7D97 /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		6E4C6D622178980200BB7D97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4C6D602178980200BB7D97 /* LaunchScreen.storyboard */; };
 		6E4C6D6D2178980300BB7D97 /* CarousefigureSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C6D6C2178980300BB7D97 /* CarousefigureSwiftTests.swift */; };
 		6E4C6D782178980300BB7D97 /* CarousefigureSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C6D772178980300BB7D97 /* CarousefigureSwiftUITests.swift */; };
+		6E4DDB84217DB1BD007D77C9 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E4DDB83217DB1BD007D77C9 /* 1.jpeg */; };
+		6E5C9965217986C30098880A /* CarouseFIgureImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5C9964217986C30098880A /* CarouseFIgureImageView.swift */; };
+		6E5C996E2179DB290098880A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5C996D2179DB250098880A /* ImageIO.framework */; };
+		6EB38E622179E46800CA98BB /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB38E632179E46800CA98BB /* SDWebImage.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19AA579BC3FAB29E89D19FA6 /* Pods-CarousefigureSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarousefigureSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarousefigureSwift/Pods-CarousefigureSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		3B3F4C1206213BCA64153582 /* Pods-CarousefigureSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarousefigureSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarousefigureSwift/Pods-CarousefigureSwift.release.xcconfig"; sourceTree = "<group>"; };
 		6E4C6D542178980200BB7D97 /* CarousefigureSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarousefigureSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E4C6D572178980200BB7D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E4C6D592178980200BB7D97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		6E4C6D732178980300BB7D97 /* CarousefigureSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarousefigureSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E4C6D772178980300BB7D97 /* CarousefigureSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarousefigureSwiftUITests.swift; sourceTree = "<group>"; };
 		6E4C6D792178980300BB7D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E4DDB83217DB1BD007D77C9 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		6E5C9964217986C30098880A /* CarouseFIgureImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouseFIgureImageView.swift; sourceTree = "<group>"; };
+		6E5C996D2179DB250098880A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		6EB38E632179E46800CA98BB /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3B581BBBCB0D4983A2C897 /* Pods_CarousefigureSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarousefigureSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EB38E622179E46800CA98BB /* SDWebImage.framework in Frameworks */,
+				6E5C996E2179DB290098880A /* ImageIO.framework in Frameworks */,
+				4B2B3487DD6A43569E937D71 /* Pods_CarousefigureSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +89,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51449AA586D1550B8B8F4676 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EB38E632179E46800CA98BB /* SDWebImage.framework */,
+				6E5C996D2179DB250098880A /* ImageIO.framework */,
+				AF3B581BBBCB0D4983A2C897 /* Pods_CarousefigureSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54F70ED2FC2DE6166079E764 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19AA579BC3FAB29E89D19FA6 /* Pods-CarousefigureSwift.debug.xcconfig */,
+				3B3F4C1206213BCA64153582 /* Pods-CarousefigureSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6E4C6D4B2178980200BB7D97 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +115,8 @@
 				6E4C6D6B2178980300BB7D97 /* CarousefigureSwiftTests */,
 				6E4C6D762178980300BB7D97 /* CarousefigureSwiftUITests */,
 				6E4C6D552178980200BB7D97 /* Products */,
+				54F70ED2FC2DE6166079E764 /* Pods */,
+				51449AA586D1550B8B8F4676 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +135,8 @@
 			children = (
 				6E4C6D572178980200BB7D97 /* AppDelegate.swift */,
 				6E4C6D592178980200BB7D97 /* ViewController.swift */,
+				6E5C9964217986C30098880A /* CarouseFIgureImageView.swift */,
+				6E4DDB83217DB1BD007D77C9 /* 1.jpeg */,
 				6E4C6D5B2178980200BB7D97 /* Main.storyboard */,
 				6E4C6D5E2178980200BB7D97 /* Assets.xcassets */,
 				6E4C6D602178980200BB7D97 /* LaunchScreen.storyboard */,
@@ -132,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E4C6D7C2178980300BB7D97 /* Build configuration list for PBXNativeTarget "CarousefigureSwift" */;
 			buildPhases = (
+				C791CC53E973F387C560E9AF /* [CP] Check Pods Manifest.lock */,
 				6E4C6D502178980200BB7D97 /* Sources */,
 				6E4C6D512178980200BB7D97 /* Frameworks */,
 				6E4C6D522178980200BB7D97 /* Resources */,
+				EAF93D0580756BFD77D719EC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +275,7 @@
 				6E4C6D622178980200BB7D97 /* LaunchScreen.storyboard in Resources */,
 				6E4C6D5F2178980200BB7D97 /* Assets.xcassets in Resources */,
 				6E4C6D5D2178980200BB7D97 /* Main.storyboard in Resources */,
+				6E4DDB84217DB1BD007D77C9 /* 1.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,11 +295,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C791CC53E973F387C560E9AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarousefigureSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAF93D0580756BFD77D719EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CarousefigureSwift/Pods-CarousefigureSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarousefigureSwift/Pods-CarousefigureSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6E4C6D502178980200BB7D97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E5C9965217986C30098880A /* CarouseFIgureImageView.swift in Sources */,
 				6E4C6D5A2178980200BB7D97 /* ViewController.swift in Sources */,
 				6E4C6D582178980200BB7D97 /* AppDelegate.swift in Sources */,
 			);
@@ -424,10 +505,12 @@
 		};
 		6E4C6D7D2178980300BB7D97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19AA579BC3FAB29E89D19FA6 /* Pods-CarousefigureSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CarousefigureSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wenze.CarousefigureSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,10 +521,12 @@
 		};
 		6E4C6D7E2178980300BB7D97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B3F4C1206213BCA64153582 /* Pods-CarousefigureSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CarousefigureSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wenze.CarousefigureSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
